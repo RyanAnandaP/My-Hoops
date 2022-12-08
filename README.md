@@ -1,5 +1,5 @@
 # My-hoops
-My Hoops is a sneakers website for all the youngsters that want boost up their style
+My Hoops is a sneakers website for all the youngsters who want boost up their style
 
 Website Prototype Link: https://myhoopsproject.framer.website/ 
 
