@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nokora:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Open+Sans&display=swap');
+
+:root{
+    --background-color1: #5578BE;
+    --background-color2: #FFFFFF;
+    --button-color: #CB9748;
+    
+    --font-title: 'Hammersmith One', sans-serif;
+    --font-button: 'Inter', sans-serif;
+    --font-heading: 'Nokora', sans-serif;
+    --font-subheading:'Open Sans', sans-serif; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--background-color1);
+}
+section{
+    margin-top: 120px;
+    height: 600px;
+}
+
+.container{
+    max-width: 1500px;
+}
+
+.navbar .nav-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.menu-wrapper{
+    display: flex;
+}
+.menu{
+    display: flex;
+    gap: 71px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-wrapper i{
+    font-size: 30px;
+    color: var(--background-color2);
+    margin: 0 155px;
+}
+
+.menu .menu-link{
+    color: var(--background-color2);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--font-button);
+}
+
+.menu .menu-link:hover{
+    color: var(--button-color);
+    transition: 800ms ease-in-out;
+}
+
+
+ .logo{
+    color: var(--background-color2);
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.home .home-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.heading{
+    font-family:var(--font-heading);
+    font-size: 55px;
+    font-weight: 700px;
+    color: var(--background-color2);
+
+}
+
+.subheading{
+    width: 352px;
+    font-family: var(--font-subheading);
+    font-weight: 400px;
+    font-size: 21px;
+    color: var(--background-color2);
+}
+
+.content-left .btn-buy{
+    display: flex;
+    background-color: #CB9748;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 40px;
+    width: 158px;
+
+}
+
+.content-left .btn-buy:hover{
+    background-color: var(--background-color2);
+    color: var(--button-color);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 800ms;
+
+}
+
+.btn-buy a:hover{
+    color: var(--button-color);
+    transition: 800ms;
+}
+
+.btn-buy a{
+    color: var(--background-color2);
+    font-size: 23px;
+    font-family: var(--font-button);
+    font-weight: bold;
+    padding: 8px 29px;
+    justify-content: left;
+}
+
+
+.content-right .running-shoes{
+    width: 878px;
+    height: 462px;
+}
+
+#la-caps{
+    width: 719px;
+    height: 442px;
+}
+
+#product2{
+    background-color: var(--background-color2);
+}
+
+#container2{
+    padding: 80px 0;
+}
+
+
+
+.product-2 .heading{
+    font-family: var(--font-heading);
+    font-weight: 700px;
+    color: black;
+}
+
+.product-2 .subheading{
+    font-family: var(--font-subheading);
+    color: black;
+    font-weight: 400px;
+    font-size: 21px;
+}
+
+
+#btn-buy2{
+    display: flex;
+    background-color: #CB9748;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 158px;
+}
+
+#btn-buy2:hover{
+    background-color: var(--background-color2);
+    color: var(--button-color);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 800ms;
+}
+
+#btn-buy2 a{
+    color: var(--background-color2);
+    font-size: 23px;
+    font-family: var(--font-button);
+    font-weight: bold;
+    padding: 8px 29px;
+    justify-content: left;
+}
+
+#btn-buy2 a:hover{
+    color: var(--button-color);
+    transition: 800ms;
+}
+
+#air-jordan{
+    width: 776px;
+    height: 474px;
+}
+
+
+/* Content Section */
+.home-wrapper .content-left{
+    flex: flex 0 0 50%;
+}
+
+.home-wrapper .content-right{
+    flex: flex 0 0 50%;
+}
+
