@@ -149,12 +149,12 @@ section h1{
   font-family: var(--font-button);
   font-size: 35px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .card-content p{
     font-family: var(--font-subheading);
     font-size: 25px;
-    text-transform: uppercase;
 }
 
 .card-image img{
