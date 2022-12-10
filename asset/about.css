@@ -154,6 +154,7 @@ section h1{
 .card-content p{
     font-family: var(--font-subheading);
     font-size: 25px;
+    text-transform: uppercase;
 }
 
 .card-image img{
